@@ -1,6 +1,3 @@
-data "aws_region" "current" {}
-data "aws_caller_identity" "current" {}
-
 resource "aws_api_gateway_rest_api" "api" {
   name = "it_works_api"
 }

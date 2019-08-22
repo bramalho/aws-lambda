@@ -49,3 +49,16 @@ AWS Secret Access Key [None]: <YOUR ACCESS KEY>
 Default region name [None]: eu-west-1
 Default output format [None]: json
 ```
+
+## Terraform Configuration
+- In your working directory, init terraform
+```bash
+terraform init
+```
+- Create the configuration file `config.tf`
+```terraform
+provider "aws" {
+  version = "~> 2.24"
+  region  = "eu-west-1"
+}
+```

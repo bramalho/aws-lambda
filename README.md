@@ -78,3 +78,9 @@ terraform apply
 Go to teh AWS Console and you'll see your lamda that is created.
 
 [More about terraform lambda function](https://www.terraform.io/docs/providers/aws/r/lambda_function.html)
+[More about terraform api gateway](https://www.terraform.io/docs/providers/aws/r/api_gateway_rest_api.html)
+
+## Destroy
+```bash
+terraform destroy
+```

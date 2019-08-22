@@ -13,3 +13,6 @@
 
 ## Python
 - Install python in your machine (https://www.python.org/downloads)
+
+## Terraform
+- Install terraform in your machine (https://www.terraform.io/downloads.html)

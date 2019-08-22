@@ -62,3 +62,17 @@ provider "aws" {
   region  = "eu-west-1"
 }
 ```
+
+## Apply your first lambda
+1 - Create a zip file with your lambda (ie: `functions/it_works.zip`)
+2 - Write your lambda definition (ie: `terraform/lambda.tf`)
+3 - Plan it!
+```bash
+terraform plan
+```
+If everything is ok, you'll all the resources that are going to be create/updated/deleted.
+4 - Apply it!
+```bash
+terraform apply
+```
+Go to teh AWS Console and you'll see your lamda that is created.

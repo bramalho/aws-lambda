@@ -64,15 +64,17 @@ provider "aws" {
 ```
 
 ## Apply your first lambda
-1 - Create a zip file with your lambda (ie: `functions/it_works.zip`)
-2 - Write your lambda definition (ie: `terraform/lambda.tf`)
-3 - Plan it!
+- Create a zip file with your lambda (ie: `functions/it_works.zip`)
+- Write your lambda definition (ie: `terraform/lambda.tf`)
+- Plan it!
 ```bash
 terraform plan
 ```
 If everything is ok, you'll all the resources that are going to be create/updated/deleted.
-4 - Apply it!
+- Apply it!
 ```bash
 terraform apply
 ```
 Go to teh AWS Console and you'll see your lamda that is created.
+
+[More about terraform lambda function](https://www.terraform.io/docs/providers/aws/r/lambda_function.html)

@@ -3,6 +3,7 @@
 
 ## Requirements
 - AWS account
+- AWS CLI
 - Python 3
 - Terraform
 
@@ -31,7 +32,7 @@ import json
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': json.dumps('It works!')
+        'body': json.dumps({"message": "It works!"})
     }
 ```
 
